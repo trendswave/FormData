@@ -44,7 +44,7 @@ function doPost(e) {
    (add you specific data entries)
   
   return ContentService.createTextOutput(JSON.stringify({ 'result': 'success' })).setMimeType(ContentService.MimeType.JSON);
-}```
+} ```
 
 3. Deploy the Script as a Web App:
 
