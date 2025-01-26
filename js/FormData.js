@@ -7,7 +7,7 @@ document.getElementById('google-form').addEventListener('submit', function(e) {
         data[key] = value;
     });
 
-    fetch('https://script.google.com/macros/s/AKfycbyWyawVU2tk6N4OaXTk3bQy-31wxLAcZ5SdXjufV3eU-wVVfm0XZWLAVpt4BZWkFtrs/exec', {
+    fetch('https://script.google.com/macros/s/AKfycby4uQTLracfJyQ-gbJJHE140f7aLOM9vISUklR9x6O6IpTYG2wMg-3VlIC96swqvQ0M/exec', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
